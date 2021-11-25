@@ -2,11 +2,11 @@
   "name": "backend_Neptunoapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.ts"
+    "start": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
